@@ -206,6 +206,9 @@ blockquote {
 
 /* Interactivity */
 
+.hidden{
+  display: none !important;
+}
 
 /* Cookie Banner */
 
@@ -217,6 +220,9 @@ blockquote {
   box-shadow: 0 0 5px 1px #0000004d;
 
   padding: 20px 30px;
+  z-index: 10;
+  position: sticky;
+  top: 0;
 }
 
 #cookie-banner .button {
